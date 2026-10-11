@@ -1,0 +1,193 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Base Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f6f8;
+}
+
+/* Header Styles */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: #374151;
+    padding: 15px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Section Card Styles */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Features Grid */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features li {
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Shortcuts Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #d1d5db;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #374151;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+/* Feedback Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font: inherit;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Button Styles */
+button,
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: inherit;
+    transition: background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 12px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    main {
+        margin: 15px auto;
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
