@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course for me was system design, especially understanding scalability and preventing double-booking. I initially found it challenging to understand how a system could handle thousands of people making requests simultaneously without becoming overloaded or allowing two customers to purchase the same seat. I overcame this challenge by breaking the problem into smaller parts and learning how different components work together. Designing TicketHub helped me understand the importance of database transactions, row-level locking, caching, load balancing, and virtual waiting rooms. I also learned that adding more servers is not enough; the system must protect data consistency.
+
+I did not receive specific feedback on my capstone, but I would like to improve its scalability, error handling, and overall reliability. I would also strengthen my testing process to identify potential problems before deployment. Applying the system design principles I have learned would help me make the project more robust and prepare it for real-world usage.
+
+Next, I want to deepen my knowledge of backend development, SQL, database transactions, and cloud computing. I also plan to learn how to build and deploy APIs, use automated testing, and monitor applications in production. My goal is to become a better developer by building practical projects, solving real-world problems, and continuously improving my technical skills.
