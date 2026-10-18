@@ -127,9 +127,8 @@ button:focus-visible {
         padding: 20px;
     }
 
-    ``` .buttons {
+    .buttons {
         flex-direction: column;
     }
 
-    ```
 }
